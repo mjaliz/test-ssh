@@ -12,6 +12,7 @@ jobs:
           port: ${{ secrets.PRE_STAGING_SERVER_PORT }}
           username: ${{ secrets.PRE_STAGING_SERVER_USER }}
           key: ${{ secrets.PRE_STAGING_SERVER_ID_RSA }}
+          scrpit_stop: true
           script: |
             echo hello
             cd python
