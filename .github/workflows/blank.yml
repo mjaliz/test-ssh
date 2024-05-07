@@ -3,7 +3,7 @@ on:
   push
 jobs:
   Deploy-Front-Staging:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: SSH remote commands
         uses: appleboy/ssh-action@v0.1.10
